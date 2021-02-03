@@ -1,0 +1,6 @@
+{
+    "parent": "unbreakabletoolsfabric:item/unbreakable_bow",
+    "textures": {
+        "layer0": "unbreakabletools:items/unbreakable_bow_pulling_1"
+    }
+}

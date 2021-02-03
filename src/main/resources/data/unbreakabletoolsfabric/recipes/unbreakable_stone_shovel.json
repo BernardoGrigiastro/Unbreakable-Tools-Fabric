@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_shovel"
+    },
+    {
+      "item": "minecraft:enchanted_book",
+         "Enchantments": [
+            {
+               "id": "minecraft:unbreaking",
+               "lvl": 1
+            }
+       ]
+    }
+  ],
+  "result": {
+    "item": "unbreakabletoolsfabric:unbreakable_stone_shovel"
+  }
+}

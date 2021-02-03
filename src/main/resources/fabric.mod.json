@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "unbreakabletoolsfabric",
+  "version": "0.1.0",
+  "name": "UnbreakableToolsFabric",
+  "description": "Adds unbreakable tools.",
+  "authors": [
+    "Omg_ItzBunnyGirl"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/unbreakabletoolsfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "omgitzbunnygirl.unbreakabletoolsfabric.client.UnbreakableToolsFabricClient"
+    ],
+    "main": [
+      "omgitzbunnygirl.unbreakabletoolsfabric.UnbreakableToolsFabric"
+    ]
+  },
+  "mixins": [
+    "unbreakabletoolsfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.14.4"
+  }
+}
