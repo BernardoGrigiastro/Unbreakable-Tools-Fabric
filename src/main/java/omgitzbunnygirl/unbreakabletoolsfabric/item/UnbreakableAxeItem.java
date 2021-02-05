@@ -10,7 +10,12 @@ public class UnbreakableAxeItem extends AxeItem {
     }
 
     @Override
-    public boolean hasEnchantmentGlint(ItemStack stack) {
+    public boolean isDamageable() {
+        return false;
+    }
+
+    @Override
+    public boolean hasGlint(ItemStack stack) {
         return true;
     }
 }

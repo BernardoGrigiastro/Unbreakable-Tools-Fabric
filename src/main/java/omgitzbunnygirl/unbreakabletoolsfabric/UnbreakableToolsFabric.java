@@ -21,37 +21,44 @@ public class UnbreakableToolsFabric implements ModInitializer {
     // Wooden
     public static ToolItem UNBREAKABLE_WOODEN_PICKAXE = new UnbreakablePickaxeItem(ToolMaterials.WOOD, 1, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_WOODEN_AXE = new UnbreakableAxeItem(ToolMaterials.WOOD, 6.0F, -3.2F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
-    public static ToolItem UNBREAKABLE_WOODEN_HOE = new UnbreakableHoeItem(ToolMaterials.WOOD, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_WOODEN_HOE = new UnbreakableHoeItem(ToolMaterials.WOOD, 0, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_WOODEN_SHOVEL = new UnbreakableShovelItem(ToolMaterials.WOOD, 1.5F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_WOODEN_SWORD = new UnbreakableSwordItem(ToolMaterials.WOOD, 3, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
 
     // Stone
     public static ToolItem UNBREAKABLE_STONE_PICKAXE = new UnbreakablePickaxeItem(ToolMaterials.STONE, 1, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_STONE_AXE = new UnbreakableAxeItem(ToolMaterials.STONE, 7.0F, -3.2F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
-    public static ToolItem UNBREAKABLE_STONE_HOE = new UnbreakableHoeItem(ToolMaterials.STONE, -2.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_STONE_HOE = new UnbreakableHoeItem(ToolMaterials.STONE, 1, -2.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_STONE_SHOVEL = new UnbreakableShovelItem(ToolMaterials.STONE, 1.5F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_STONE_SWORD = new UnbreakableSwordItem(ToolMaterials.STONE, 3, -2.4F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
 
     // Iron
     public static ToolItem UNBREAKABLE_IRON_PICKAXE = new UnbreakablePickaxeItem(ToolMaterials.IRON, 1, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_IRON_AXE = new UnbreakableAxeItem(ToolMaterials.IRON, 6.0F, -3.1F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
-    public static ToolItem UNBREAKABLE_IRON_HOE = new UnbreakableHoeItem(ToolMaterials.IRON, -1.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_IRON_HOE = new UnbreakableHoeItem(ToolMaterials.IRON, -2, -1.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_IRON_SHOVEL = new UnbreakableShovelItem(ToolMaterials.IRON, 1.5F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_IRON_SWORD = new UnbreakableSwordItem(ToolMaterials.IRON, 3, -2.4F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
 
     // Diamond
     public static ToolItem UNBREAKABLE_DIAMOND_PICKAXE = new UnbreakablePickaxeItem(ToolMaterials.DIAMOND, 1, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_DIAMOND_AXE = new UnbreakableAxeItem(ToolMaterials.DIAMOND, 5.0F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
-    public static ToolItem UNBREAKABLE_DIAMOND_HOE = new UnbreakableHoeItem(ToolMaterials.DIAMOND, -0.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_DIAMOND_HOE = new UnbreakableHoeItem(ToolMaterials.DIAMOND, -3, -0.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_DIAMOND_SHOVEL = new UnbreakableShovelItem(ToolMaterials.DIAMOND, 1.5F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_DIAMOND_SWORD = new UnbreakableSwordItem(ToolMaterials.DIAMOND, 3, -2.4F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
 
     // Golden
     public static ToolItem UNBREAKABLE_GOLDEN_PICKAXE = new UnbreakablePickaxeItem(ToolMaterials.GOLD, 1, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_GOLDEN_AXE = new UnbreakableAxeItem(ToolMaterials.GOLD, 6.0F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
-    public static ToolItem UNBREAKABLE_GOLDEN_HOE = new UnbreakableHoeItem(ToolMaterials.GOLD, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_GOLDEN_HOE = new UnbreakableHoeItem(ToolMaterials.GOLD, 0, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_GOLDEN_SHOVEL = new UnbreakableShovelItem(ToolMaterials.GOLD, 1.5F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
     public static ToolItem UNBREAKABLE_GOLDEN_SWORD = new UnbreakableSwordItem(ToolMaterials.GOLD, 3, -2.4F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+
+    // Netherite
+    public static ToolItem UNBREAKABLE_NETHERITE_PICKAXE = new UnbreakablePickaxeItem(ToolMaterials.NETHERITE, 1, -2.8F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_NETHERITE_AXE = new UnbreakableAxeItem(ToolMaterials.NETHERITE, 5.0F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_NETHERITE_HOE = new UnbreakableHoeItem(ToolMaterials.NETHERITE, -4, 0.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_NETHERITE_SHOVEL = new UnbreakableShovelItem(ToolMaterials.NETHERITE, 1.5F, -3.0F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
+    public static ToolItem UNBREAKABLE_NETHERITE_SWORD = new UnbreakableSwordItem(ToolMaterials.NETHERITE, 3, -2.4F, new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
 
     // Other Tools
     public static UnbreakableBowItem UNBREAKABLE_BOW = new UnbreakableBowItem(new Item.Settings().group(UNBREAKABLE_TOOLS_GROUP).maxDamage(-2147483648));
@@ -93,6 +100,13 @@ public class UnbreakableToolsFabric implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_golden_hoe"), UNBREAKABLE_GOLDEN_HOE);
         Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_golden_shovel"), UNBREAKABLE_GOLDEN_SHOVEL);
         Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_golden_sword"), UNBREAKABLE_GOLDEN_SWORD);
+
+        // Netherite
+        Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_netherite_pickaxe"), UNBREAKABLE_NETHERITE_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_netherite_axe"), UNBREAKABLE_NETHERITE_AXE);
+        Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_netherite_hoe"), UNBREAKABLE_NETHERITE_HOE);
+        Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_netherite_shovel"), UNBREAKABLE_NETHERITE_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_netherite_sword"), UNBREAKABLE_NETHERITE_SWORD);
 
         // Other Tools
         Registry.register(Registry.ITEM, new Identifier("unbreakabletoolsfabric", "unbreakable_bow"), UNBREAKABLE_BOW);
